@@ -82,10 +82,10 @@ ufo['Year'] = ufo.Time.dt.year           <- Extracting Year from Time column
 import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
 
-r.status_code  -- 200 is success! 4xx is an error
-r.text  ? raw response text
-r.json()?JSON response body into a dictionary
-r.json()['Year']  ? Extracting year from the dictionary 
+r.status_code  #-- 200 is success! 4xx is an error
+r.text  # raw response text
+r.json()    #JSON response body into a dictionary
+r.json()['Year']  # Extracting year from the dictionary 
 
 #Function to returnyear 
 def get_movie_year(title):
