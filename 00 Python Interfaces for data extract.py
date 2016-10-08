@@ -76,8 +76,8 @@ drinks = pd.read_csv(url, header=0, names=drink_cols, na_filter=False)
 #loading ufo data
 url = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/ufo.csv'
 ufo = pd.read_csv(url)
-ufo['Time'] = pd.to_datetime(ufo.Time)   ? changing to python datetime
-ufo['Year'] = ufo.Time.dt.year           <- Extracting Year from Time column 
+ufo['Time'] = pd.to_datetime(ufo.Time)   # changing to python datetime
+ufo['Year'] = ufo.Time.dt.year           #- Extracting Year from Time column 
 #REST API
 import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
