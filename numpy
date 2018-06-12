@@ -38,7 +38,7 @@ print(e)                     # Might print "[[ 0.91940167  0.08143941]
                              #               [ 0.68744134  0.87236687]]"
                              
                              
-
+#-----------------------------------------------------
 #slicing
 import numpy as np
 
@@ -61,7 +61,7 @@ b[0, 0] = 77     # b[0, 0] is the same piece of data as a[0, 1]
 print(a[0, 1])   # Prints "77"
 
 
-
+#-----------------------------------------------------
 import numpy as np
 
 # Create the following rank 2 array with shape (3, 4)
@@ -88,7 +88,7 @@ print(col_r2, col_r2.shape)  # Prints "[[ 2]
                              #          [10]] (3, 1)"
 
 
-
+#-----------------------------------------------------
 #Integer Array indixing
 import numpy as np
 
@@ -160,7 +160,7 @@ print(a[a > 2])     # Prints "[3 4 5 6]"
 
 
 
-
+#-----------------------------------------------------
 #Data types
 import numpy as np
 
@@ -176,7 +176,7 @@ print(x.dtype)                         # Prints "int64"
 
 
 
-
+#-----------------------------------------------------
 #Array Math
 import numpy as np
 
@@ -263,7 +263,7 @@ print(v)    # Prints "[1 2 3]"
 print(v.T)  # Prints "[1 2 3]"
 
 
-
+#-----------------------------------------------------
 #Broadcasting
 ##The below methods show solutions without broadcasting
 import numpy as np
