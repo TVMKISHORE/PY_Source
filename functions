@@ -193,3 +193,13 @@ reduced_list = reduce(lambda x, y: x+y, my_list)
 print(filtered_list)
 print(mapped_list)
 print(reduced_list)
+
+
+
+#----------------------------------
+#this is not necessarily needed for Python. However, including a main() function in your Python program can be handy to structure your code
+# Define `main()` function
+def main():
+  hello()
+  print("This is a main function")
+
