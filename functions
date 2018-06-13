@@ -203,3 +203,4 @@ def main():
   hello()
   print("This is a main function")
 
+main()
